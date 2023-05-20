@@ -1,0 +1,11 @@
+.navbar {
+    padding: 0;
+}
+
+.navbar > * {
+    display: inline-block
+}
+
+.navbar > *:not(:last-child) {
+    margin-right: 10px;
+}
